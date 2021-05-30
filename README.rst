@@ -25,9 +25,10 @@ Frontend
 
   protoc -I=../protos chat.proto \
     --js_out=import_style=commonjs:./ \
-  --grpc-web_out=import_style=commonjs,mode=grpcwebtext:./
+    --grpc-web_out=import_style=commonjs,mode=grpcwebtext:./
 
-- Compile JS library, please refer `here https://grpc.io/docs/platforms/web/basics/#compile-the-js-library`_
+- Compile JS library, please refer `here <https://grpc.io/docs/platforms/web/basics/#compile-the-js-library>`_
+
   - :code:`npm install`
   - :code:`npx webpack client.js`
 
