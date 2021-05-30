@@ -2,6 +2,8 @@ GRPC chat system with Rust + Grpc-web
 
 Using Tonic (Rust grpc framework) as backend system. Grpc-web as the frontend code.
 
+.. image:: screenshot.png
+
 Folder struct
 -------------
 
